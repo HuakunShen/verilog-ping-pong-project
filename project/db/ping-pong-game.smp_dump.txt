@@ -1,0 +1,101 @@
+
+State Machine - |game|control_game:comb_8|current_state
+Name current_state.END current_state.GAME_START current_state.GAME_OVER current_state.DRAW_PADDLE_TOP current_state.DRAW_PADDLE current_state.DRAW_BALL_1 current_state.DRAW_BALL current_state.DRAW_BORDER current_state.ERASE_ALL current_state.ERASE_ALL_1 
+current_state.ERASE_ALL_1 0 0 0 0 0 0 0 0 0 0 
+current_state.ERASE_ALL 0 0 0 0 0 0 0 0 1 1 
+current_state.DRAW_BORDER 0 0 0 0 0 0 0 1 0 1 
+current_state.DRAW_BALL 0 0 0 0 0 0 1 0 0 1 
+current_state.DRAW_BALL_1 0 0 0 0 0 1 0 0 0 1 
+current_state.DRAW_PADDLE 0 0 0 0 1 0 0 0 0 1 
+current_state.DRAW_PADDLE_TOP 0 0 0 1 0 0 0 0 0 1 
+current_state.GAME_OVER 0 0 1 0 0 0 0 0 0 1 
+current_state.GAME_START 0 1 0 0 0 0 0 0 0 1 
+current_state.END 1 0 0 0 0 0 0 0 0 1 
+
+State Machine - |game|control_game:comb_8|control_ball_1:c3|current_state
+Name current_state.WAIT current_state.DRAW current_state.MOVE current_state.ERASE current_state.DONE1 
+current_state.DONE1 0 0 0 0 0 
+current_state.ERASE 0 0 0 1 1 
+current_state.MOVE 0 0 1 0 1 
+current_state.DRAW 0 1 0 0 1 
+current_state.WAIT 1 0 0 0 1 
+
+State Machine - |game|control_game:comb_8|control_ball:c1|current_state
+Name current_state.WAIT current_state.DRAW current_state.MOVE current_state.ERASE current_state.DONE1 
+current_state.DONE1 0 0 0 0 0 
+current_state.ERASE 0 0 0 1 1 
+current_state.MOVE 0 0 1 0 1 
+current_state.DRAW 0 1 0 0 1 
+current_state.WAIT 1 0 0 0 1 
+
+State Machine - |game|control_game:comb_8|control_paddle_top:c2|current_state
+Name current_state.WAIT current_state.DRAW current_state.MOVE current_state.ERASE current_state.DONE1 
+current_state.DONE1 0 0 0 0 0 
+current_state.ERASE 0 0 0 1 1 
+current_state.MOVE 0 0 1 0 1 
+current_state.DRAW 0 1 0 0 1 
+current_state.WAIT 1 0 0 0 1 
+
+State Machine - |game|control_game:comb_8|control_paddle:c0|current_state
+Name current_state.WAIT current_state.DRAW current_state.MOVE current_state.ERASE current_state.DONE1 
+current_state.DONE1 0 0 0 0 0 
+current_state.ERASE 0 0 0 1 1 
+current_state.MOVE 0 0 1 0 1 
+current_state.DRAW 0 1 0 0 1 
+current_state.WAIT 1 0 0 0 1 
+
+State Machine - |game|control_game:comb_8|draw_border:d0|current_state
+Name current_state.DONE current_state.RIGHT current_state.BOTTOM current_state.LEFT current_state.TOP current_state.WAIT 
+current_state.WAIT 0 0 0 0 0 0 
+current_state.TOP 0 0 0 0 1 1 
+current_state.LEFT 0 0 0 1 0 1 
+current_state.BOTTOM 0 0 1 0 0 1 
+current_state.RIGHT 0 1 0 0 0 1 
+current_state.DONE 1 0 0 0 0 1 
+
+State Machine - |game|control_game:comb_8|game_over:g0|current_state
+Name current_state.DONE current_state.N5 current_state.N4 current_state.N3 current_state.N2 current_state.N1 current_state.I2 current_state.I1 current_state.W5 current_state.W4 current_state.W3 current_state.W2 current_state.W1 current_state.S2 current_state.S1 current_state.P4 current_state.P3 current_state.P2 current_state.P1 current_state.START 
+current_state.START 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+current_state.P1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+current_state.P2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 
+current_state.P3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 
+current_state.P4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 
+current_state.S1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 
+current_state.S2 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 
+current_state.W1 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 
+current_state.W2 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 
+current_state.W3 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 
+current_state.W4 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 
+current_state.W5 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 
+current_state.I1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 
+current_state.I2 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 
+current_state.N1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+current_state.N2 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+current_state.N3 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+current_state.N4 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+current_state.N5 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+current_state.DONE 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+
+State Machine - |game|control_game:comb_8|game_start:g1|current_state
+Name current_state.DONE current_state.O8 current_state.O7 current_state.O6 current_state.O5 current_state.O4 current_state.O3 current_state.O2 current_state.O1 current_state.F2 current_state.F1 current_state.G9 current_state.G8 current_state.G7 current_state.G6 current_state.G5 current_state.G4 current_state.G3 current_state.G2 current_state.G1 current_state.START 
+current_state.START 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+current_state.G1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+current_state.G2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 
+current_state.G3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 
+current_state.G4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 
+current_state.G5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 
+current_state.G6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 
+current_state.G7 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 
+current_state.G8 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 
+current_state.G9 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 
+current_state.F1 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 
+current_state.F2 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 
+current_state.O1 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 
+current_state.O2 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 
+current_state.O3 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+current_state.O4 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+current_state.O5 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+current_state.O6 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+current_state.O7 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+current_state.O8 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+current_state.DONE 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 

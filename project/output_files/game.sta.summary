@@ -1,0 +1,789 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1100mV 85C Model Setup 'control_game:comb_8|datapath_ball:p0|count[2]'
+Slack : -10.434
+TNS   : -20.582
+
+Type  : Slow 1100mV 85C Model Setup 'control_game:comb_8|current_state.END'
+Slack : -10.404
+TNS   : -169.859
+
+Type  : Slow 1100mV 85C Model Setup 'control_game:comb_8|control_ball_1:c3|current_state.MOVE'
+Slack : -5.407
+TNS   : -76.956
+
+Type  : Slow 1100mV 85C Model Setup 'CLOCK_50'
+Slack : -4.851
+TNS   : -1525.255
+
+Type  : Slow 1100mV 85C Model Setup 'control_game:comb_8|control_ball:c1|current_state.MOVE'
+Slack : -4.841
+TNS   : -78.815
+
+Type  : Slow 1100mV 85C Model Setup 'control_game:comb_8|control_paddle_top:c2|current_state.MOVE'
+Slack : -4.461
+TNS   : -33.868
+
+Type  : Slow 1100mV 85C Model Setup 'control_game:comb_8|control_paddle:c0|current_state.MOVE'
+Slack : -2.899
+TNS   : -22.884
+
+Type  : Slow 1100mV 85C Model Setup 'control_game:comb_8|datapath_ball_1:p_1|timer_l:t8|count[0]'
+Slack : -1.705
+TNS   : -4.760
+
+Type  : Slow 1100mV 85C Model Setup 'control_game:comb_8|datapath_ball:p0|timer_l:t8|count[0]'
+Slack : -1.635
+TNS   : -4.262
+
+Type  : Slow 1100mV 85C Model Setup 'control_game:comb_8|datapath_ball:p0|xy_counter_ball:movement|player_1_scores'
+Slack : -1.328
+TNS   : -6.328
+
+Type  : Slow 1100mV 85C Model Setup 'control_game:comb_8|datapath_ball:p0|xy_counter_ball:movement|player_0_scores'
+Slack : -1.311
+TNS   : -4.743
+
+Type  : Slow 1100mV 85C Model Setup 'control_game:comb_8|datapath_ball:p0|timer_s:t111|count[0]'
+Slack : -1.242
+TNS   : -2.855
+
+Type  : Slow 1100mV 85C Model Setup 'control_game:comb_8|datapath_ball_1:p_1|timer_s:t111|count[0]'
+Slack : -1.164
+TNS   : -2.836
+
+Type  : Slow 1100mV 85C Model Setup 'VGA|mypll|altpll_component|auto_generated|generic_pll1~PLL_OUTPUT_COUNTER|divclk'
+Slack : 31.711
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'CLOCK_50'
+Slack : -0.520
+TNS   : -0.520
+
+Type  : Slow 1100mV 85C Model Hold 'VGA|mypll|altpll_component|auto_generated|generic_pll1~PLL_OUTPUT_COUNTER|divclk'
+Slack : 0.431
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'control_game:comb_8|control_paddle_top:c2|current_state.MOVE'
+Slack : 0.520
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'control_game:comb_8|datapath_ball:p0|xy_counter_ball:movement|player_1_scores'
+Slack : 0.557
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'control_game:comb_8|datapath_ball:p0|timer_s:t111|count[0]'
+Slack : 0.593
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'control_game:comb_8|control_ball_1:c3|current_state.MOVE'
+Slack : 0.607
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'control_game:comb_8|datapath_ball_1:p_1|timer_s:t111|count[0]'
+Slack : 0.634
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'control_game:comb_8|control_ball:c1|current_state.MOVE'
+Slack : 0.677
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'control_game:comb_8|datapath_ball:p0|xy_counter_ball:movement|player_0_scores'
+Slack : 0.755
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'control_game:comb_8|datapath_ball_1:p_1|timer_l:t8|count[0]'
+Slack : 0.816
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'control_game:comb_8|datapath_ball:p0|timer_l:t8|count[0]'
+Slack : 0.856
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'control_game:comb_8|control_paddle:c0|current_state.MOVE'
+Slack : 0.861
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'control_game:comb_8|current_state.END'
+Slack : 0.995
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'control_game:comb_8|datapath_ball:p0|count[2]'
+Slack : 1.546
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Recovery 'control_game:comb_8|datapath_ball:p0|count[2]'
+Slack : -10.862
+TNS   : -21.183
+
+Type  : Slow 1100mV 85C Model Recovery 'control_game:comb_8|datapath_ball:p0|xy_counter_ball:movement|player_0_scores'
+Slack : -2.833
+TNS   : -11.328
+
+Type  : Slow 1100mV 85C Model Recovery 'control_game:comb_8|datapath_ball:p0|xy_counter_ball:movement|player_1_scores'
+Slack : -2.193
+TNS   : -13.145
+
+Type  : Slow 1100mV 85C Model Removal 'control_game:comb_8|datapath_ball:p0|xy_counter_ball:movement|player_1_scores'
+Slack : 1.029
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Removal 'control_game:comb_8|datapath_ball:p0|xy_counter_ball:movement|player_0_scores'
+Slack : 1.810
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Removal 'control_game:comb_8|datapath_ball:p0|count[2]'
+Slack : 2.419
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'control_game:comb_8|datapath_ball_1:p_1|timer_l:t8|count[0]'
+Slack : -0.476
+TNS   : -2.587
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'control_game:comb_8|datapath_ball:p0|timer_s:t111|count[0]'
+Slack : -0.455
+TNS   : -2.540
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'control_game:comb_8|datapath_ball:p0|xy_counter_ball:movement|player_1_scores'
+Slack : -0.413
+TNS   : -4.828
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'control_game:comb_8|control_ball_1:c3|current_state.MOVE'
+Slack : -0.394
+TNS   : -9.996
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'control_game:comb_8|control_ball:c1|current_state.MOVE'
+Slack : -0.394
+TNS   : -9.991
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'control_game:comb_8|control_paddle_top:c2|current_state.MOVE'
+Slack : -0.394
+TNS   : -5.410
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'control_game:comb_8|control_paddle:c0|current_state.MOVE'
+Slack : -0.394
+TNS   : -4.333
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'control_game:comb_8|datapath_ball:p0|xy_counter_ball:movement|player_0_scores'
+Slack : -0.394
+TNS   : -2.329
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'control_game:comb_8|datapath_ball:p0|timer_l:t8|count[0]'
+Slack : -0.394
+TNS   : -2.180
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'control_game:comb_8|datapath_ball_1:p_1|timer_s:t111|count[0]'
+Slack : -0.394
+TNS   : -1.821
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'control_game:comb_8|datapath_ball:p0|count[2]'
+Slack : -0.247
+TNS   : -0.429
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'control_game:comb_8|current_state.END'
+Slack : 0.267
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'VGA|mypll|altpll_component|auto_generated|generic_pll1~FRACTIONAL_PLL|vcoph[0]'
+Slack : 1.666
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'CLOCK_50'
+Slack : 8.882
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'VGA|mypll|altpll_component|auto_generated|generic_pll1~PLL_OUTPUT_COUNTER|divclk'
+Slack : 18.767
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Setup 'control_game:comb_8|current_state.END'
+Slack : -10.511
+TNS   : -170.920
+
+Type  : Slow 1100mV 0C Model Setup 'control_game:comb_8|datapath_ball:p0|count[2]'
+Slack : -10.459
+TNS   : -20.567
+
+Type  : Slow 1100mV 0C Model Setup 'control_game:comb_8|control_ball_1:c3|current_state.MOVE'
+Slack : -5.505
+TNS   : -78.471
+
+Type  : Slow 1100mV 0C Model Setup 'control_game:comb_8|control_ball:c1|current_state.MOVE'
+Slack : -4.800
+TNS   : -80.675
+
+Type  : Slow 1100mV 0C Model Setup 'CLOCK_50'
+Slack : -4.538
+TNS   : -1363.995
+
+Type  : Slow 1100mV 0C Model Setup 'control_game:comb_8|control_paddle_top:c2|current_state.MOVE'
+Slack : -4.526
+TNS   : -34.325
+
+Type  : Slow 1100mV 0C Model Setup 'control_game:comb_8|control_paddle:c0|current_state.MOVE'
+Slack : -2.882
+TNS   : -22.801
+
+Type  : Slow 1100mV 0C Model Setup 'control_game:comb_8|datapath_ball_1:p_1|timer_l:t8|count[0]'
+Slack : -1.698
+TNS   : -4.729
+
+Type  : Slow 1100mV 0C Model Setup 'control_game:comb_8|datapath_ball:p0|timer_l:t8|count[0]'
+Slack : -1.602
+TNS   : -4.256
+
+Type  : Slow 1100mV 0C Model Setup 'control_game:comb_8|datapath_ball:p0|xy_counter_ball:movement|player_1_scores'
+Slack : -1.346
+TNS   : -6.496
+
+Type  : Slow 1100mV 0C Model Setup 'control_game:comb_8|datapath_ball:p0|xy_counter_ball:movement|player_0_scores'
+Slack : -1.334
+TNS   : -4.757
+
+Type  : Slow 1100mV 0C Model Setup 'control_game:comb_8|datapath_ball:p0|timer_s:t111|count[0]'
+Slack : -1.244
+TNS   : -2.883
+
+Type  : Slow 1100mV 0C Model Setup 'control_game:comb_8|datapath_ball_1:p_1|timer_s:t111|count[0]'
+Slack : -1.156
+TNS   : -2.839
+
+Type  : Slow 1100mV 0C Model Setup 'VGA|mypll|altpll_component|auto_generated|generic_pll1~PLL_OUTPUT_COUNTER|divclk'
+Slack : 32.110
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'CLOCK_50'
+Slack : -0.711
+TNS   : -1.301
+
+Type  : Slow 1100mV 0C Model Hold 'VGA|mypll|altpll_component|auto_generated|generic_pll1~PLL_OUTPUT_COUNTER|divclk'
+Slack : 0.418
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'control_game:comb_8|control_paddle_top:c2|current_state.MOVE'
+Slack : 0.508
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'control_game:comb_8|datapath_ball:p0|xy_counter_ball:movement|player_1_scores'
+Slack : 0.533
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'control_game:comb_8|datapath_ball:p0|timer_s:t111|count[0]'
+Slack : 0.575
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'control_game:comb_8|datapath_ball_1:p_1|timer_s:t111|count[0]'
+Slack : 0.610
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'control_game:comb_8|control_ball_1:c3|current_state.MOVE'
+Slack : 0.680
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'control_game:comb_8|control_ball:c1|current_state.MOVE'
+Slack : 0.694
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'control_game:comb_8|datapath_ball:p0|xy_counter_ball:movement|player_0_scores'
+Slack : 0.708
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'control_game:comb_8|datapath_ball_1:p_1|timer_l:t8|count[0]'
+Slack : 0.775
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'control_game:comb_8|datapath_ball:p0|timer_l:t8|count[0]'
+Slack : 0.809
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'control_game:comb_8|control_paddle:c0|current_state.MOVE'
+Slack : 0.847
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'control_game:comb_8|current_state.END'
+Slack : 1.024
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'control_game:comb_8|datapath_ball:p0|count[2]'
+Slack : 1.444
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Recovery 'control_game:comb_8|datapath_ball:p0|count[2]'
+Slack : -10.727
+TNS   : -20.945
+
+Type  : Slow 1100mV 0C Model Recovery 'control_game:comb_8|datapath_ball:p0|xy_counter_ball:movement|player_0_scores'
+Slack : -3.008
+TNS   : -12.028
+
+Type  : Slow 1100mV 0C Model Recovery 'control_game:comb_8|datapath_ball:p0|xy_counter_ball:movement|player_1_scores'
+Slack : -2.388
+TNS   : -14.314
+
+Type  : Slow 1100mV 0C Model Removal 'control_game:comb_8|datapath_ball:p0|xy_counter_ball:movement|player_1_scores'
+Slack : 1.227
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Removal 'control_game:comb_8|datapath_ball:p0|xy_counter_ball:movement|player_0_scores'
+Slack : 1.987
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Removal 'control_game:comb_8|datapath_ball:p0|count[2]'
+Slack : 2.033
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'control_game:comb_8|datapath_ball:p0|timer_s:t111|count[0]'
+Slack : -0.483
+TNS   : -2.623
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'control_game:comb_8|datapath_ball_1:p_1|timer_l:t8|count[0]'
+Slack : -0.478
+TNS   : -2.595
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'control_game:comb_8|control_ball:c1|current_state.MOVE'
+Slack : -0.394
+TNS   : -9.902
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'control_game:comb_8|control_ball_1:c3|current_state.MOVE'
+Slack : -0.394
+TNS   : -9.859
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'control_game:comb_8|control_paddle_top:c2|current_state.MOVE'
+Slack : -0.394
+TNS   : -5.214
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'control_game:comb_8|datapath_ball:p0|xy_counter_ball:movement|player_1_scores'
+Slack : -0.394
+TNS   : -4.706
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'control_game:comb_8|control_paddle:c0|current_state.MOVE'
+Slack : -0.394
+TNS   : -4.354
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'control_game:comb_8|datapath_ball:p0|xy_counter_ball:movement|player_0_scores'
+Slack : -0.394
+TNS   : -2.329
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'control_game:comb_8|datapath_ball:p0|timer_l:t8|count[0]'
+Slack : -0.394
+TNS   : -2.142
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'control_game:comb_8|datapath_ball_1:p_1|timer_s:t111|count[0]'
+Slack : -0.394
+TNS   : -1.770
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'control_game:comb_8|datapath_ball:p0|count[2]'
+Slack : -0.329
+TNS   : -0.697
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'control_game:comb_8|current_state.END'
+Slack : 0.268
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'VGA|mypll|altpll_component|auto_generated|generic_pll1~FRACTIONAL_PLL|vcoph[0]'
+Slack : 1.666
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'CLOCK_50'
+Slack : 8.834
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'VGA|mypll|altpll_component|auto_generated|generic_pll1~PLL_OUTPUT_COUNTER|divclk'
+Slack : 18.762
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Setup 'control_game:comb_8|datapath_ball:p0|count[2]'
+Slack : -5.632
+TNS   : -11.243
+
+Type  : Fast 1100mV 85C Model Setup 'control_game:comb_8|current_state.END'
+Slack : -5.454
+TNS   : -88.267
+
+Type  : Fast 1100mV 85C Model Setup 'CLOCK_50'
+Slack : -3.640
+TNS   : -1091.425
+
+Type  : Fast 1100mV 85C Model Setup 'control_game:comb_8|control_ball_1:c3|current_state.MOVE'
+Slack : -2.852
+TNS   : -38.941
+
+Type  : Fast 1100mV 85C Model Setup 'control_game:comb_8|control_ball:c1|current_state.MOVE'
+Slack : -2.659
+TNS   : -39.544
+
+Type  : Fast 1100mV 85C Model Setup 'control_game:comb_8|control_paddle_top:c2|current_state.MOVE'
+Slack : -2.264
+TNS   : -17.121
+
+Type  : Fast 1100mV 85C Model Setup 'control_game:comb_8|control_paddle:c0|current_state.MOVE'
+Slack : -1.279
+TNS   : -10.070
+
+Type  : Fast 1100mV 85C Model Setup 'control_game:comb_8|datapath_ball_1:p_1|timer_l:t8|count[0]'
+Slack : -0.675
+TNS   : -1.804
+
+Type  : Fast 1100mV 85C Model Setup 'control_game:comb_8|datapath_ball:p0|timer_l:t8|count[0]'
+Slack : -0.666
+TNS   : -1.578
+
+Type  : Fast 1100mV 85C Model Setup 'control_game:comb_8|datapath_ball:p0|xy_counter_ball:movement|player_1_scores'
+Slack : -0.505
+TNS   : -1.986
+
+Type  : Fast 1100mV 85C Model Setup 'control_game:comb_8|datapath_ball:p0|xy_counter_ball:movement|player_0_scores'
+Slack : -0.490
+TNS   : -1.706
+
+Type  : Fast 1100mV 85C Model Setup 'control_game:comb_8|datapath_ball:p0|timer_s:t111|count[0]'
+Slack : -0.422
+TNS   : -0.752
+
+Type  : Fast 1100mV 85C Model Setup 'control_game:comb_8|datapath_ball_1:p_1|timer_s:t111|count[0]'
+Slack : -0.374
+TNS   : -0.708
+
+Type  : Fast 1100mV 85C Model Setup 'VGA|mypll|altpll_component|auto_generated|generic_pll1~PLL_OUTPUT_COUNTER|divclk'
+Slack : 33.913
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'CLOCK_50'
+Slack : -0.497
+TNS   : -0.619
+
+Type  : Fast 1100mV 85C Model Hold 'control_game:comb_8|control_ball:c1|current_state.MOVE'
+Slack : 0.163
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'control_game:comb_8|control_ball_1:c3|current_state.MOVE'
+Slack : 0.191
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'VGA|mypll|altpll_component|auto_generated|generic_pll1~PLL_OUTPUT_COUNTER|divclk'
+Slack : 0.234
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'control_game:comb_8|control_paddle_top:c2|current_state.MOVE'
+Slack : 0.281
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'control_game:comb_8|datapath_ball:p0|timer_s:t111|count[0]'
+Slack : 0.303
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'control_game:comb_8|datapath_ball:p0|xy_counter_ball:movement|player_1_scores'
+Slack : 0.305
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'control_game:comb_8|datapath_ball_1:p_1|timer_s:t111|count[0]'
+Slack : 0.331
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'control_game:comb_8|datapath_ball:p0|xy_counter_ball:movement|player_0_scores'
+Slack : 0.417
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'control_game:comb_8|datapath_ball_1:p_1|timer_l:t8|count[0]'
+Slack : 0.430
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'control_game:comb_8|datapath_ball:p0|timer_l:t8|count[0]'
+Slack : 0.439
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'control_game:comb_8|control_paddle:c0|current_state.MOVE'
+Slack : 0.440
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'control_game:comb_8|current_state.END'
+Slack : 0.512
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'control_game:comb_8|datapath_ball:p0|count[2]'
+Slack : 0.652
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Recovery 'control_game:comb_8|datapath_ball:p0|count[2]'
+Slack : -6.577
+TNS   : -12.739
+
+Type  : Fast 1100mV 85C Model Recovery 'control_game:comb_8|datapath_ball:p0|xy_counter_ball:movement|player_0_scores'
+Slack : -1.209
+TNS   : -4.835
+
+Type  : Fast 1100mV 85C Model Recovery 'control_game:comb_8|datapath_ball:p0|xy_counter_ball:movement|player_1_scores'
+Slack : -0.821
+TNS   : -4.923
+
+Type  : Fast 1100mV 85C Model Removal 'control_game:comb_8|datapath_ball:p0|xy_counter_ball:movement|player_1_scores'
+Slack : 0.283
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Removal 'control_game:comb_8|datapath_ball:p0|xy_counter_ball:movement|player_0_scores'
+Slack : 0.789
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Removal 'control_game:comb_8|datapath_ball:p0|count[2]'
+Slack : 1.355
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'control_game:comb_8|datapath_ball_1:p_1|timer_l:t8|count[0]'
+Slack : -0.208
+TNS   : -0.613
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'control_game:comb_8|datapath_ball:p0|xy_counter_ball:movement|player_1_scores'
+Slack : -0.173
+TNS   : -1.034
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'control_game:comb_8|datapath_ball:p0|timer_s:t111|count[0]'
+Slack : -0.168
+TNS   : -0.502
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'control_game:comb_8|datapath_ball:p0|timer_l:t8|count[0]'
+Slack : -0.094
+TNS   : -0.255
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'control_game:comb_8|control_paddle_top:c2|current_state.MOVE'
+Slack : -0.052
+TNS   : -0.358
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'control_game:comb_8|control_ball_1:c3|current_state.MOVE'
+Slack : -0.036
+TNS   : -0.143
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'control_game:comb_8|datapath_ball:p0|count[2]'
+Slack : -0.020
+TNS   : -0.024
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'control_game:comb_8|datapath_ball:p0|xy_counter_ball:movement|player_0_scores'
+Slack : -0.015
+TNS   : -0.059
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'control_game:comb_8|control_ball:c1|current_state.MOVE'
+Slack : -0.012
+TNS   : -0.022
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'control_game:comb_8|control_paddle:c0|current_state.MOVE'
+Slack : 0.061
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'control_game:comb_8|datapath_ball_1:p_1|timer_s:t111|count[0]'
+Slack : 0.068
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'control_game:comb_8|current_state.END'
+Slack : 0.270
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'VGA|mypll|altpll_component|auto_generated|generic_pll1~FRACTIONAL_PLL|vcoph[0]'
+Slack : 1.666
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'CLOCK_50'
+Slack : 8.806
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'VGA|mypll|altpll_component|auto_generated|generic_pll1~PLL_OUTPUT_COUNTER|divclk'
+Slack : 18.890
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Setup 'control_game:comb_8|datapath_ball:p0|count[2]'
+Slack : -5.171
+TNS   : -10.306
+
+Type  : Fast 1100mV 0C Model Setup 'control_game:comb_8|current_state.END'
+Slack : -5.079
+TNS   : -81.938
+
+Type  : Fast 1100mV 0C Model Setup 'CLOCK_50'
+Slack : -3.030
+TNS   : -844.963
+
+Type  : Fast 1100mV 0C Model Setup 'control_game:comb_8|control_ball_1:c3|current_state.MOVE'
+Slack : -2.715
+TNS   : -36.933
+
+Type  : Fast 1100mV 0C Model Setup 'control_game:comb_8|control_ball:c1|current_state.MOVE'
+Slack : -2.388
+TNS   : -37.585
+
+Type  : Fast 1100mV 0C Model Setup 'control_game:comb_8|control_paddle_top:c2|current_state.MOVE'
+Slack : -2.041
+TNS   : -15.352
+
+Type  : Fast 1100mV 0C Model Setup 'control_game:comb_8|control_paddle:c0|current_state.MOVE'
+Slack : -1.136
+TNS   : -8.954
+
+Type  : Fast 1100mV 0C Model Setup 'control_game:comb_8|datapath_ball_1:p_1|timer_l:t8|count[0]'
+Slack : -0.579
+TNS   : -1.533
+
+Type  : Fast 1100mV 0C Model Setup 'control_game:comb_8|datapath_ball:p0|timer_l:t8|count[0]'
+Slack : -0.557
+TNS   : -1.316
+
+Type  : Fast 1100mV 0C Model Setup 'control_game:comb_8|datapath_ball:p0|xy_counter_ball:movement|player_1_scores'
+Slack : -0.435
+TNS   : -1.666
+
+Type  : Fast 1100mV 0C Model Setup 'control_game:comb_8|datapath_ball:p0|xy_counter_ball:movement|player_0_scores'
+Slack : -0.418
+TNS   : -1.443
+
+Type  : Fast 1100mV 0C Model Setup 'control_game:comb_8|datapath_ball:p0|timer_s:t111|count[0]'
+Slack : -0.341
+TNS   : -0.615
+
+Type  : Fast 1100mV 0C Model Setup 'control_game:comb_8|datapath_ball_1:p_1|timer_s:t111|count[0]'
+Slack : -0.290
+TNS   : -0.541
+
+Type  : Fast 1100mV 0C Model Setup 'VGA|mypll|altpll_component|auto_generated|generic_pll1~PLL_OUTPUT_COUNTER|divclk'
+Slack : 34.716
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'CLOCK_50'
+Slack : -0.645
+TNS   : -1.355
+
+Type  : Fast 1100mV 0C Model Hold 'control_game:comb_8|control_ball:c1|current_state.MOVE'
+Slack : 0.117
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'control_game:comb_8|control_ball_1:c3|current_state.MOVE'
+Slack : 0.195
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'VGA|mypll|altpll_component|auto_generated|generic_pll1~PLL_OUTPUT_COUNTER|divclk'
+Slack : 0.217
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'control_game:comb_8|control_paddle_top:c2|current_state.MOVE'
+Slack : 0.253
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'control_game:comb_8|datapath_ball:p0|xy_counter_ball:movement|player_1_scores'
+Slack : 0.272
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'control_game:comb_8|datapath_ball:p0|timer_s:t111|count[0]'
+Slack : 0.277
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'control_game:comb_8|datapath_ball_1:p_1|timer_s:t111|count[0]'
+Slack : 0.296
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'control_game:comb_8|datapath_ball:p0|xy_counter_ball:movement|player_0_scores'
+Slack : 0.368
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'control_game:comb_8|datapath_ball_1:p_1|timer_l:t8|count[0]'
+Slack : 0.380
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'control_game:comb_8|control_paddle:c0|current_state.MOVE'
+Slack : 0.403
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'control_game:comb_8|datapath_ball:p0|timer_l:t8|count[0]'
+Slack : 0.406
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'control_game:comb_8|current_state.END'
+Slack : 0.446
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'control_game:comb_8|datapath_ball:p0|count[2]'
+Slack : 0.571
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Recovery 'control_game:comb_8|datapath_ball:p0|count[2]'
+Slack : -5.947
+TNS   : -11.516
+
+Type  : Fast 1100mV 0C Model Recovery 'control_game:comb_8|datapath_ball:p0|xy_counter_ball:movement|player_0_scores'
+Slack : -1.234
+TNS   : -4.935
+
+Type  : Fast 1100mV 0C Model Recovery 'control_game:comb_8|datapath_ball:p0|xy_counter_ball:movement|player_1_scores'
+Slack : -0.891
+TNS   : -5.339
+
+Type  : Fast 1100mV 0C Model Removal 'control_game:comb_8|datapath_ball:p0|xy_counter_ball:movement|player_1_scores'
+Slack : 0.386
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Removal 'control_game:comb_8|datapath_ball:p0|xy_counter_ball:movement|player_0_scores'
+Slack : 0.839
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Removal 'control_game:comb_8|datapath_ball:p0|count[2]'
+Slack : 1.093
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'control_game:comb_8|datapath_ball_1:p_1|timer_l:t8|count[0]'
+Slack : -0.144
+TNS   : -0.422
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'control_game:comb_8|datapath_ball:p0|timer_s:t111|count[0]'
+Slack : -0.143
+TNS   : -0.427
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'control_game:comb_8|datapath_ball:p0|xy_counter_ball:movement|player_1_scores'
+Slack : -0.119
+TNS   : -0.709
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'control_game:comb_8|datapath_ball:p0|timer_l:t8|count[0]'
+Slack : -0.046
+TNS   : -0.111
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'control_game:comb_8|control_paddle_top:c2|current_state.MOVE'
+Slack : 0.007
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'control_game:comb_8|datapath_ball:p0|xy_counter_ball:movement|player_0_scores'
+Slack : 0.012
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'control_game:comb_8|control_ball_1:c3|current_state.MOVE'
+Slack : 0.017
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'control_game:comb_8|control_ball:c1|current_state.MOVE'
+Slack : 0.018
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'control_game:comb_8|datapath_ball:p0|count[2]'
+Slack : 0.028
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'control_game:comb_8|datapath_ball_1:p_1|timer_s:t111|count[0]'
+Slack : 0.067
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'control_game:comb_8|control_paddle:c0|current_state.MOVE'
+Slack : 0.079
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'control_game:comb_8|current_state.END'
+Slack : 0.312
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'VGA|mypll|altpll_component|auto_generated|generic_pll1~FRACTIONAL_PLL|vcoph[0]'
+Slack : 1.666
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'CLOCK_50'
+Slack : 8.801
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'VGA|mypll|altpll_component|auto_generated|generic_pll1~PLL_OUTPUT_COUNTER|divclk'
+Slack : 18.886
+TNS   : 0.000
+
+------------------------------------------------------------
